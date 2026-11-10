@@ -1,0 +1,40 @@
+# Python 运行产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 玩家本地配置与数据：含本机路径和标点备份，禁止入库
+config.json
+backup/
+logs/
+*.zip
+*.7z
+
+# 内置 Python 运行时与发布包：由 tools/build_dist.py 生成，不提交二进制文件
+python/
+dist/
+
+# 目录联接共享数据（含玩家标点）
+shared/
+
+# 本地开发文档：含本机路径、服务器线路与内部约定，不上传
+/doc/
+
+# 临时产物与测试夹具
+tmp/
+
+# 本地 AI 助手 / 编辑器工作区
+.workbuddy/
+.workbuddy-ai/
+.codebuddy/
+.claude/
+.cursor/
+.aider*/
+.continue/
+.zed/
+.vscode/
+.idea/
+.opencode/
+.DS_Store
